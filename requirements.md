@@ -214,7 +214,7 @@ This document outlines the technical and functional requirements for key backend
 - Index on property_id for review aggregation
 
 ## 📦 Technologies
-- Node.js + Express.js (API)
+- Python + Flask (API)
 
 - PostgreSQL or MySQL (DB)
 
@@ -222,12 +222,12 @@ This document outlines the technical and functional requirements for key backend
 
 - JWT (Auth)
 
-- Stripe (Payments)
+- Stripe, Paypal, credit card (Payments)
 
 - AWS S3 / Cloudinary (Media Storage)
 
 ## 📈 Performance & Testing
-- Unit tests (Jest / Mocha)
+- Unit tests (pytest)
 
 - API tests with Postman
 
